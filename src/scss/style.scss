@@ -1,0 +1,33 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    margin:0 auto;
+    max-width: 280;
+}
+
+@media only screen and (min-width:768px){
+    .container{
+        margin:0 auto;
+        max-width: 680px;
+    }
+    
+}
+
+@media only screen and (min-width:1024px){
+    .container{
+        margin:0 auto;
+        max-width: 1024px;
+    }
+    
+}
+
+
+
+@import"header";
